@@ -3,17 +3,8 @@ Better Activity Manager
 
 ## Installation
 
-### REST
-We use `composer` to install `Silex`
-To get composer run this in your terminal in the root of this project:
-
-	curl -sS https://getcomposer.org/installer | php
-	
-Then run
-
-    composer.phar install
-    
-To install `Silex`
+## Rest
+read the readme in /rest for more info
 
 ## Requirements
 - Create
@@ -54,5 +45,3 @@ The list of users is a list of `(Username, State)` where State is: `enum { Yes, 
 - WWW client
     - ID per client
 - Future: Mediawiki client as a plugin
-    
->>>>>>> Stashed changes
