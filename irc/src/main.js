@@ -10,7 +10,7 @@ var commands = {
 var client = dazeus.connect({path: '/tmp/dazeus.sock'}, function () {
     client.onCommand('bam', function (network, user, channel, execCmd, args) {
         var pargs = args.split(' ');
-        var arg0 = pargs.splice(0, 1)[0];
+        var arg0 = pargs.splice(0, 1)[0]; // grab first parameter
         var net = {
             'network': network,
             'user': user,
